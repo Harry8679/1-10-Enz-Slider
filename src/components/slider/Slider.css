@@ -63,3 +63,25 @@
 .navigation-button:hover {
     background-color: #4e4e4e;
 }
+
+@media (max-width: 850px) {
+    .index-info {
+        font-size: 16px;
+    }
+    .slider {
+        max-width: 400px;
+    }
+    .navigation-button {
+        width: 35px;
+        height: 35px;
+    }
+    .prev-button {
+        left: -75px;
+    }
+    .next-button {
+        right: -75px;
+    }
+    .navigation-button img {
+        width: 12px;
+    }
+}
