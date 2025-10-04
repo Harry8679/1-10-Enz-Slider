@@ -1,3 +1,4 @@
+import './Slider.css';
 import leftChevron from "../../assets/left-arrow.svg";
 import rightChevron from "../../assets/right-arrow.svg";
 
