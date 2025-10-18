@@ -18,10 +18,10 @@ const Slider = () => {
             <p className="image-info">{currentSlide.description}</p>
             <img src={`/public/images/img-${slideIndex}.jpg`} alt="Bedroom" className="slider-image" />
 
-            <button className="navigation-button prev-button">
+            <button onClick={prevSlide} className="navigation-button prev-button">
                 <img src={leftChevron} alt='left' />
             </button>
-            <button className="navigation-button next-button">
+            <button onClick={nextSlide} className="navigation-button next-button">
                 <img src={rightChevron} alt='right' />
             </button>
         </div>
